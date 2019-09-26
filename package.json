@@ -1,0 +1,28 @@
+{
+  "name": "angularhomepage",
+  "version": "1.0.0",
+  "description": "Just a redesign of the angular homepage",
+  "main": "index.js",
+  "dependencies": {
+    "node-sass": "^4.12.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kelibst/AngularHomepage.git"
+  },
+  "keywords": [
+    "Angular",
+    "Homepage",
+    "Clone"
+  ],
+  "author": "Kelibst",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kelibst/AngularHomepage/issues"
+  },
+  "homepage": "https://github.com/kelibst/AngularHomepage#readme"
+}

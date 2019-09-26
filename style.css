@@ -1,0 +1,104 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }
+
+nav {
+  display: inline-block;
+  height: inherit; }
+
+.nav {
+  font-family: "Roboto","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif; }
+  .nav_area {
+    height: 4rem;
+    padding: 1rem; }
+  .nav_brand {
+    height: 4rem;
+    float: left;
+    margin-right: .8rem; }
+  .nav_container {
+    background-image: linear-gradient(to right bottom, #0d47a1, #42a5f5);
+    width: 100%;
+    height: 85vh;
+    background-size: cover; }
+    .nav_container_full {
+      height: inherit;
+      background-image: linear-gradient(11deg, white 0%, white 34%, transparent 0%);
+      background-size: cover; }
+  .nav_ul {
+    float: left; }
+  .nav_li {
+    list-style-type: none;
+    display: inline-block;
+    padding: .8rem 1.6rem; }
+    .nav_li_link {
+      color: white;
+      text-align: center;
+      font-size: 1.8rem;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-weight: 400; }
+      .nav_li_link:hover {
+        color: #cfcfcf; }
+  .nav_middle {
+    position: absolute;
+    padding-left: 13rem;
+    width: 90rem;
+    height: 50rem;
+    display: inline-block; }
+    .nav_middle_logo {
+      position: relative;
+      top: 4rem;
+      left: 4rem;
+      float: left;
+      width: 40rem;
+      height: 40rem; }
+    .nav_middle_header {
+      color: white;
+      font-size: 3.5rem;
+      position: relative;
+      top: 8rem;
+      left: 4rem;
+      padding-top: 6rem;
+      font-weight: 700;
+      line-height: 4rem; }
+      .nav_middle_header_bottom {
+        display: inline-block;
+        margin-top: 2rem; }
+
+.icons {
+  float: right;
+  display: inline-block; }
+  .icons_search {
+    border-radius: 3rem;
+    outline: none;
+    padding: .8rem; }
+  .icons_icon {
+    font-size: 2.4rem;
+    color: white;
+    padding-top: .8rem;
+    padding-right: .8rem;
+    text-decoration: none; }
+
+.icofont-twitter {
+  padding-left: 1rem;
+  margin-top: .5rem; }
+
+.btn {
+  display: block;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  border-radius: 3rem;
+  margin-top: 4rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.6rem;
+  color: blue; }
+  .btn--white {
+    background: white; }
+  .btn:hover {
+    color: #585858;
+    background-color: #cfcfcf; }
